@@ -21,6 +21,93 @@
 <li><a href="#recetas">Recetas</a></li>
 </ul>
 </nav>
+    document.addEventListener("DOMContentLoaded", function() {
+
+    alert("¡Bienvenido a la página de Estilo de vida Saludable!");
+    
+    });
+    body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color:rgb(0, 255, 136);
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;}
+header img {max-width: 200px;}
+
+header h1 {
+margin: 0;
+color: #122b12;
+flex-grow: 1;
+text-align: center;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+nav ul li {
+
+display: inline;
+
+margin-right: 20px;
+
+}
+
+nav ul li a {
+
+text-decoration: none;
+
+color: #162216;
+
+}
+
+section {
+
+padding: 20px;
+
+}
+
+section h2 {
+
+    color: #2c6130;
+
+}
+
+section p, section ul {
+
+color: #030303;
+
+}
+
+footer {
+
+background-color: #333;
+
+color: #fff;
+
+text-align: center;
+
+padding: 10px 0;
+
+}
+
+canvas {
+
+width: 100%;
+
+max-width: 600px;
+
+height: auto;
+
+display: block;
+
+margin: 0 auto;
+
+}
 </header>
 <section id="inicio">
 <h2>Introducción</h2>
